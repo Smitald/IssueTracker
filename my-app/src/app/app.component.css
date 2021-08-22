@@ -1,0 +1,29 @@
+tr.is-green {
+    background: #90ee90;
+}
+tr.is-red {
+    background: #f08080;
+}
+tr.is-blue {
+    background: #7B68EE;
+}
+table {
+    width: 100%;
+    padding:20px
+  }
+  .block {
+    display: block;
+  }
+  .block app-text {
+      display: block;;
+      position: relative
+    }
+  .block:last-child app-text {
+      display: inline-block;
+      width: 50%;
+      position: relative
+    }
+  
+.container{
+    margin-top: 2%;
+}

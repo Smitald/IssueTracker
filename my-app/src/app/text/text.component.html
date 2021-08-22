@@ -1,0 +1,7 @@
+<span>{{text}}
+    <input [(ngModel)]="editText" *ngIf="editmode" type="text">
+    </span>
+  
+      <button mat-raised-button color="primary" *ngIf="!editmode" (click)="edit()">Edit</button>
+      <button mat-raised-button color="primary" *ngIf="editmode" (click)="save()">Done</button>
+   
